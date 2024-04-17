@@ -1,0 +1,40 @@
+* {
+    font-family: JetBrains Mono Nerd Font;
+    font-size: 14px;
+    
+    color: #C9CCCE;
+    border-radius: 10px;
+
+    background-color: transparent;
+}
+
+#window,
+#workspaces,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#battery,
+#tray,
+#clock,
+#custom-arch {
+  background-color: rgba(35, 38, 52, 0.95);
+  opacity: 93;
+  border: 2px solid #BABBF1;
+  padding: 0.25rem 0.75rem;
+  margin: 1px 6px;
+}
+
+#custom-arch {
+  font-size: 20px;
+
+  padding: 0.25rem 0.9rem 0.25rem 0.5rem;
+}
+
+tooltip {
+  color: #C9CCCE;
+  background-color: rgba(35, 38, 52, 0.9);
+  text-shadow: none;
+  border: 0px transparent;
+}
+

@@ -1,0 +1,120 @@
+// Global 
+{
+    "layer": "top",
+    "position": "top",
+    "margin-left": 15,
+    "margin-right": 15,
+    "margin-top": 10,
+
+    "height": 40,
+
+    "modules-left": [
+        "custom/arch",
+	"clock",
+	"hyprland/window"
+    ],
+ 
+    "modules-center": [
+	"hyprland/workspaces"
+    ],
+
+
+    "clock": {
+        "interval": 10,
+        "format": "{:%e %b %Y %H:%M} "
+    },
+
+
+   "modules-right": [
+       "tray",
+       "pulseaudio",
+       "network",
+       "cpu",
+       "memory",
+       "battery",
+       
+       ],
+
+
+   "custom/arch": {
+    "format":"  ",
+    "tooltip": false,
+    "on-click": "wofi --show drun" 
+    },
+
+   "battery": {
+     "states": {
+         "warning": 30,
+         "critical": 15
+     },
+     "format": "{icon} {capacity}%",
+     "format-charging": "󰂄 {capacity}%",
+     "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+
+     "tooltip": false
+   },
+   
+   "memory": {
+    "states": {
+        "critical": 90,
+        "high": 70,
+        "medium": 30,
+       },
+        "interval": 5,
+        "format": "󰾆  {}%",
+        "format-medium": "󰾅  {}%",
+        "format-high": "󰓅  {}%",
+        "format-critical": "  {}%",
+
+        "tooltip": false,
+    },
+
+
+    "cpu": {
+        "interval": 10,
+        "format": "󰍛 {usage}%",
+        
+       "tooltip": false,
+    },
+
+    "pulseaudio": {
+        "scroll-step": 1, // %, can be a float
+        "format": "{icon}  {volume}%",
+        "format-muted": "󰸈",
+        "format-icons": {
+            "headphone": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-click-right": "pavucontrol",
+        "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +2%",
+        "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -2%",
+        "tooltip": false,
+    },
+
+    "hyprland/workspaces": {
+
+	"disable-scroll": false,
+	"all-outputs": true,
+	"on-scroll-up": "hyprctl dispatch workspace e+1",
+	"on-scroll-down": "hyprctl dispatch workspace e-1",
+	"on-click": "activate",
+	
+	"format": "{icon}",        
+        "format-icons": {
+          "active": "",
+          "urgent": "",
+          "default": "",
+	    },	
+    },
+
+    "network": {
+    
+    "format-wifi": "{essid} ({signalStrength}%) {icon} ",
+    "format-ethernet": "󰈀",
+    "format-disconnected": "󰤭",
+   
+    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+    "tooltip": false,
+    },
+}

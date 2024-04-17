@@ -1,0 +1,8 @@
+hide_scroll = true
+allow_images = true
+width=700
+height=350
+prompt=Search...
+allow_markup=true
+gtk_dark=true
+insensitive=true
