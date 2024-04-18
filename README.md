@@ -1,13 +1,14 @@
 # Dotfiles
 
 * OS - Arch
-* Window Manager - hyprland
-* File Manager - ranger
-* Browser - firefox
-* Terminal - kitty
-* Shell - zsh
-* Editor - nvim
-* Launcher - wofi
-* Theme - catppuccin macchiato
-* Bar - waybar
+* Display Manager - Sddm
+* Window Manager - Hyprland
+* File Manager - Ranger
+* Browser - Firefox
+* Terminal - Kitty
+* Shell - Zsh
+* Editor - Nvim
+* Launcher - Wofi
+* Theme - Catppuccin Macchiato
+* Bar - Waybar
 * Font - JetBrainsMono Nerd Font
