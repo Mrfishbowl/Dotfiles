@@ -15,4 +15,6 @@
 
 # Credit
 
-Sddm theme is the [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme/tree/master) with a modified config file theme.conf
+Sddm theme is the [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme/tree/master) with a modified config file [theme.conf](https://github.com/Mrfishbowl/Dotfiles/blob/main/theme.conf)
+
+# Wallpaper
