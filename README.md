@@ -18,8 +18,8 @@
 Sddm theme is the [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme/tree/master) with a modified config file [theme.conf](https://github.com/Mrfishbowl/Dotfiles/blob/main/theme.conf)
 
 # Preview
-![alt text](https://github.com/Mrfishbowl/Dotfiles/blob/main/preview1.png)
 ![alt text](https://github.com/Mrfishbowl/Dotfiles/blob/main/desktop.png)
+![alt text](https://github.com/Mrfishbowl/Dotfiles/blob/main/preview1.png)
 ![alt text](https://github.com/Mrfishbowl/Dotfiles/blob/main/lockscreen.png)
 
 # Wallpaper
