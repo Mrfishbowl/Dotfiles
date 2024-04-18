@@ -12,3 +12,7 @@
 * Theme - Catppuccin Macchiato
 * Bar - Waybar
 * Font - JetBrainsMono Nerd Font
+
+# Credit
+
+Sddm theme is the [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme/tree/master) with a modified config file theme.conf
