@@ -1,12 +1,12 @@
 # Dotfiles
 
-* OS - Arch
+* OS - EndeavourOS
 * Display Manager - Sddm
 * Window Manager - Hyprland
 * File Manager - Ranger
 * Browser - Firefox
 * Terminal - Kitty
-* Shell - Zsh
+* Shell - Bash
 * Editor - Nvim
 * Launcher - Wofi
 * Theme - Catppuccin Macchiato
