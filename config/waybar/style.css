@@ -28,7 +28,7 @@
 #custom-arch {
   font-size: 20px;
 
-  padding: 0.25rem 0.9rem 0.25rem 0.5rem;
+  padding: 0.25rem 0.9rem 0.25rem 0.3rem;
 }
 
 tooltip {
@@ -38,3 +38,6 @@ tooltip {
   border: 0px transparent;
 }
 
+#workspaces {
+	padding: 0.25rem 0.99rem 0.25rem 0.6rem;
+}

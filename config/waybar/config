@@ -37,7 +37,7 @@
 
 
    "custom/arch": {
-    "format":"  ",
+    "format":"  ",
     "tooltip": false,
     "on-click": "wofi --show drun" 
     },
@@ -112,7 +112,7 @@
     
     "format-wifi": "{essid} ({signalStrength}%) {icon} ",
     "format-ethernet": "󰈀",
-    "format-disconnected": "󰤭",
+    "format-disconnected": " 󰤭  ",
    
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
     "tooltip": false,
