@@ -15,6 +15,7 @@
 # Credit
 
 Tokyo Night GTK theme can be found [here](https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme)!
+Grub Theme can be found .[here](https://github.com/mino29/tokyo-night-grub).!
 
 # Preview
 ![alt text](https://github.com/Mrfishbowl/Dotfiles/blob/main/preview1.png)
