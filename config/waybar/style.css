@@ -1,0 +1,50 @@
+* {
+    font-family: JetBrains Mono Nerd Font;
+    font-size: 14px;
+    
+    color: #A9B1D6;
+    border-radius: 10px;
+
+}
+
+window#waybar {
+    background: transparent;
+    margin: 0;
+}
+
+#window,
+#workspaces,
+#wireplumber,
+#mpris,
+#cpu,
+#memory,
+#network,
+#tray,
+#clock,
+#custom-power,
+#custom-arch {
+    background-color: rgba(26, 27, 38, 0.80);
+    opacity: 93;
+    border: 2px solid #adb6de;
+    padding: 0.25rem 0.75rem;
+    margin: 1px 6px;
+}
+
+#custom-arch {
+    font-size: 20px;
+    padding: 0.25rem 0.65rem 0.25rem 0.3rem;
+}
+
+#custom-power {
+    padding: 0.25rem 0.65rem 0.25rem 0.8rem;
+}
+
+#workspaces {
+    padding: 0.25rem 0.65rem 0.25rem 0.6rem;
+    font-weight: bold;
+}
+
+#workspaces button {
+    padding:    0 5px;
+    color:      rgba(217, 216, 216, 0.4);
+}
