@@ -17,7 +17,7 @@ Tokyo Night GTK theme can be found [here](https://github.com/Fausto-Korpsvart/To
 Grub Theme can be found [here](https://github.com/mino29/tokyo-night-grub)!
 
 # Preview
-
+![alt text](https://github.com/Mrfishbowl/Dotfiles/blob/main/preview1.png)
 ![alt text](https://github.com/Mrfishbowl/Dotfiles/blob/main/preview2.png)
 
 # Wallpaper
