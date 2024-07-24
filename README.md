@@ -18,7 +18,7 @@ Grub Theme can be found [here](https://github.com/mino29/tokyo-night-grub)!
 
 # Preview
 ![alt text](https://github.com/Mrfishbowl/Dotfiles/blob/main/preview1.png)
-![alt text](https://github.com/Mrfishbowl/Dotfiles/blob/main/preview3.png)
+![alt text](https://github.com/Mrfishbowl/Dotfiles/blob/main/preview2.png)
 
 # Wallpaper
 ![alt text](https://github.com/Mrfishbowl/Dotfiles/blob/main/wallpapers/TokyoNightWallpaper.png)
